@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="cc.nuvu.api.Test.TestCliente" time="2.235" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="cc.nuvu.api.Test.TestCliente" time="5.228" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="cc.nuvu.api.Test.TestCliente" name="listar" time="2.235"/>
-  <testcase classname="cc.nuvu.api.Test.TestCliente" name="login" time="0"/>
-  <testcase classname="cc.nuvu.api.Test.TestCliente" name="buscarCliente" time="0"/>
+  <testcase classname="cc.nuvu.api.Test.TestCliente" name="listar" time="5.041"/>
+  <testcase classname="cc.nuvu.api.Test.TestCliente" name="login" time="0.093"/>
+  <testcase classname="cc.nuvu.api.Test.TestCliente" name="buscarCliente" time="0.094"/>
 </testsuite>
