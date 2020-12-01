@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link  type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+        <style>body {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+            }
+
+            main {
+                flex: 1 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper background blue">
+                    <a href="#" class="brand-logo right">Logo</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="usuarios.html">Usuarios</a></li>
+                        <li><a href="tarjetas.html">Tarjetas</a></li>
+                    </ul>
+                </div>	  
+            </nav>
+        </header>    
+
+        <main class="container">
+            <div class="row">
+
+                <div class="mydivubicacion">
+                    <h4>Bienvenido</h4>	
+                    <p>
+                        Esta es una sencilla pagina html que consume un servicio rest por medio de javascript y su objeto XMLHttpResquest.
+                        El area de usuarios hace una peticion al recurso y por medio de una tabla dinamica muestra los resultados obtenidos desde el servidor en su formato json.
+
+                        El framework css que se utilizo es Materialize.
+
+
+                    </p>
+                    
+                    <h4 >Consideraciones:</h4>
+                    
+                    * La parte backend en java esta funcional, para consumir con un cliente rest 
+                    como postman u otro.</br></br>
+                    
+                    RECURSOS:</br>
+                    
+                    http://localhost:8082/Api_Nuvu/api/signin   -------> login, registro y retorna un token</br></br>
+                    
+                    http://localhost:8082/Api_Nuvu/api/usuarios -------> todos los usuarios</br>
+                    http://localhost:8082/Api_Nuvu/api/usuarios/34543213  -------> usuario por cedula</br>
+                    http://localhost:8082/Api_Nuvu/api/usuarios/agregar  -------> agrega usuario</br>
+                    http://localhost:8082/Api_Nuvu/api/usuarios/modficar -------> modifica usuario</br></br></br>
+                    
+                    http://localhost:8082/Api_Nuvu/api/tarjetas -------> todos los usuarios con tarjeta </br>
+                    http://localhost:8082/Api_Nuvu/api/tarjetas/34543213 ------->por cedula</br>
+                     http://localhost:8082/Api_Nuvu/api/tarjetas/agregar  -------> agrega tarjeta </br>
+                    http://localhost:8082/Api_Nuvu/api/tarjetas/modficar -------> modifica </br></br></br>
+                    
+
+                    *La parte FRONT tiene cuatro paginas html que consumen el api.
+                </div> 
+
+
+            </div>
+
+        </main>
+
+
+        <footer class="page-footer background blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Descripción.</h5>
+                        <p class="grey-text text-lighten-4">Api Nuvu.
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Pagina-html</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2029 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+
+        </footer>
+
+
+    </body>
+</html>
